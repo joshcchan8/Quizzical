@@ -4,6 +4,7 @@ export default function Question(props) {
 
     const randomArray = randomizeAnswers()
 
+    // Randomizes the order of the
     function randomizeAnswers(){
 
         let values = [...props.incorrect, props.answer]
@@ -27,12 +28,13 @@ export default function Question(props) {
     return (
         <div className="question">
             <h3 className="question--prompt">{props.question}</h3>
-            <div>
-                <button>{randomArray[0]}</button>
-                <button>{randomArray[1]}</button>
-                <button>{randomArray[2]}</button>
-                <button>{randomArray[3]}</button>
+            <div className="question--options">
+                <button className="question--op1">{randomArray[0]}</button>
+                <button className="question--op2">{randomArray[1]}</button>
+                <button className="question--op3">{randomArray[2]}</button>
+                <button className="question--op4">{randomArray[3]}</button>
             </div>
+            <hr></hr>
         </div>
     )
 }

@@ -41,6 +41,10 @@ export default function App() {
         </div> :
         <div className="quiz">
           {questionElements}
+          <div>
+            <h4 className="quiz--score">You scored ___ correct answers</h4>
+            <button className="quiz--button">Play again</button>
+          </div>
         </div>
       }
     </main>
