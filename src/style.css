@@ -146,8 +146,22 @@ body {
     and (device-width: 390px) 
     and (device-height: 844px) 
     and (-webkit-device-pixel-ratio: 3) { 
+
         .main {
-            width: 400px;
+            width: 350px;
         }
+
+        .home {
+            width: 350px;
+        }
+
+        .quiz {
+            width: 350px;
+        }
+
+        .question {
+            width: 300px;
+        }
+
     }
 
