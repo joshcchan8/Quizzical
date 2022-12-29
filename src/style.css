@@ -149,7 +149,7 @@ body {
 
         .main {
             width: 350px;
-            height: 900px;
+            height: 800px;
         }
 
         .home {
@@ -161,6 +161,10 @@ body {
         }
 
         .question {
+            width: 300px;
+        }
+
+        .quiz--summary {
             width: 300px;
         }
 
