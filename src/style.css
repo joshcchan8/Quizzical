@@ -168,5 +168,8 @@ body {
             width: 300px;
         }
 
+        .quiz--score {
+            margin-right: 12px;
+        }
     }
 
